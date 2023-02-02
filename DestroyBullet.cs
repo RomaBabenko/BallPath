@@ -4,7 +4,7 @@ public class DestroyBullet : MonoBehaviour
 {
     private Object _explosion, _explosion2;
 
-    public void Start()
+    private void Start()
     {
         _explosion = Resources.Load("explosion");
         _explosion2 = Resources.Load("explosion2");
