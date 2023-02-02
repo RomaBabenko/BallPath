@@ -3,7 +3,7 @@
 public class DoorIsOpen : MonoBehaviour
 {
     [SerializeField] private Animator _anim;
-    [SerializeField] private LevelUp _levelUp;
+    [SerializeField] private LevelUpScreen _levelUp;
     [SerializeField] private ParticleSystem _portal;
     [SerializeField] private GameObject _deathScreen;
 
